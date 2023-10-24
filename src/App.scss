@@ -22,6 +22,7 @@ html {
   border-radius: 20px;
   transition: 0.5s ease-in-out;
   overflow: hidden;
+  margin-bottom: 5vh;
 }
 
 //! Home
@@ -35,7 +36,6 @@ html {
   overflow: hidden;
 
   svg {
-    // transform: translateX(-20%);
     animation: move 4s linear infinite;
   }
   img {
@@ -73,6 +73,9 @@ html {
           }
         }
       }
+      p {
+        margin-bottom: 1vh;
+      }
     }
   }
 }
@@ -102,6 +105,9 @@ html {
         color: black;
         text-align: right;
       }
+    }
+    h2 {
+      margin-bottom: 2vh;
     }
   }
 }
